@@ -4,8 +4,10 @@ function Coin({ image, name, symbol, price, volume, priceChange, marketcap }) {
       <div className="coin-row">
         <div className="coin">
           <img src={image} alt="crypto" />
-          <h1>{name}</h1>
-          <p className="coin-symbol">{symbol}</p>
+          <div className="coin-name">
+            <h1>{name}</h1>
+            <p className="coin-symbol">{symbol}</p>
+          </div>
         </div>
         <div className="coin-data">
           <p className="coin-price">${price.toLocaleString()}</p>
