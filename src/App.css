@@ -112,30 +112,3 @@ body {
 .red {
   color: red;
 }
-@media only screen and (max-width: 650px) {
-  .coins-container {
-    height: 700px;
-  }
-  .coin-row {
-    height: 60px;
-    width: 400px;
-  }
-  .coin {
-    display: flex;
-    align-items: center;
-    padding-right: 14px;
-    min-width: 170px;
-  }
-  .coin img {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-  }
-  .coin-volume,
-  .coin-marketcap {
-    display: none;
-  }
-  .coin-price {
-    width: 150px;
-  }
-}
